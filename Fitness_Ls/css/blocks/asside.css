@@ -1,0 +1,20 @@
+.top-news__heading{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #262424;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.top-news__subtitle{
+  color: #656464;
+}
+
+.top-news__item{
+  margin-bottom: 12px;
+}
+
+.top-news__item:last-child{
+  margin-bottom: 0;
+}

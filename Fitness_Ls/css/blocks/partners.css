@@ -1,0 +1,36 @@
+.section-partners__title{
+  margin-bottom: 73px;
+}
+
+.partners__block{
+  padding: 0px 70px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item{
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+  margin-bottom: 42px;
+  filter: grayscale(1);
+  transition: 0.4s;
+}
+
+.partners__item:nth-child(3n+1){
+  margin-left: 0;
+}
+.partners__item:nth-child(6){
+  margin-left: 200px;
+}
+
+.partners__item:nth-child(1n+4){
+  margin-bottom: 0;
+}
+
+.partners__item:hover{
+  filter: grayscale(0);
+}
