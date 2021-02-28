@@ -1,7 +1,8 @@
 .welcome-page{
-  background: url(/img/Фон.png) center center no-repeat;
+  background: url(..//../img/Фон.png);
   height: 100%;
-  position: relative;
+  width: 100%;
+  position: relative;   
   display: flex;
   justify-content: center;
   align-items: center;
