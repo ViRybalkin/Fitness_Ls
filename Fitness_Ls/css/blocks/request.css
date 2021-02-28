@@ -1,0 +1,10 @@
+
+.request__text{
+  width: 100%;
+  line-height: 1.7;
+}
+
+.request__link{
+  color: #e1942a;
+  font-weight: bold;
+}

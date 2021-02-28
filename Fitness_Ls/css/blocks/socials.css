@@ -1,0 +1,59 @@
+.social__text{
+  font-size: 16px;
+}
+
+.social__list{
+  display: flex;
+  align-items: flex-start;
+}
+
+.social__item{
+  margin-right: 5px;
+}
+
+.social__item:last-child{
+  margin-right: 0;
+}
+
+.social__item .social__link{
+  background: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.social__item .social__link::after{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+.social__item--vk .social__link::after{
+  background: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAHCAYAAAA8sqwkAAAAuklEQVQYlU3OMUoDYRAF4E+30EKUNBuwEBtBs6RIq02aiBAlpYWN3sBGcgKLJBdIiuQCNlp6hpBDpBMVLAWJEgb/hX0ww5uZ93izURTtJ+zgGRO84hxf2McPpqhhtYlfXGCAXcz8IwTbuMQteqXhMQn28IC/NAfCMEz8A/dZnh++4wAtnKGBehJ1cZz4DRaREOjjDRmalYSTCj+KVho+cY3viiAwruxGuIuXyuMSL4hF1AodzHGFLZyuAVMdHrYk8UKIAAAAAElFTkSuQmCC") center no-repeat;
+}
+
+.social__item--fb .social__link::after{
+  background: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAANCAYAAACKCx+LAAAAc0lEQVQYlbXOwQnCUBCE4S/Gq+AhBHLzKrEHxQbSgy2kglSiJXj1loICtiBP35PFu3PZnfmXYau+P8EWN5yxScHaRyOGvItgH8ILngWUmXQtwYxDAMm/wTF2Z7/Ubbur0KHJYMKjvHsPX6VDq5+ar/4O8AJIgwr4NsZ/cwAAAABJRU5ErkJggg==") center no-repeat;
+}
+
+.social__item--tw .social__link::after{
+  background: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAAsUlEQVQYlX3QMUuCURSH8Z+SQ4vYt0jeoQZHhcY2pz5Ck2s49hUsaHFyEnRzdY6owYaaXNwLAsegBuPEffNNXnzg3gPnPufA/1ay7KyFFda21DHFOZYY4r2KCzzgtCD3kxgcY4CTkJ/RxAIzXKLjP2+4PsARPnGIbjq7fOArNj+WPO5yH1fIr7jFZo8cAX/lYJx+pIwbvORyA9+YpFpkhKu8EQHb6KVaS2GecIf53yR+ABvZIBS713NyAAAAAElFTkSuQmCC") center no-repeat;
+}
+
+.social__item--mail .social__link::after{
+  background: url("data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAJCAYAAAAGuM1UAAAAwElEQVQYlX3QsUrCYRjF4adwryEnIYhGuwAJIo3AssW52UEHx2hw6wpqaW7zDqSWbOkuiiBqaQppT154PxCH/1k+OJzfxznvRrPZruMZB6r1hsNN3OIC7xXxL5zgpobLNM8xR2Mt/IMOrjCspRnQAmcJ7aT/i1MMMA4jKhUNsY9ewn/5wR6uS2gVuMcnujjCMVr4wEMJlUpT3OE168TA/3y/E95GP4AZJnhZ6R4ji+IITwltBTDCI3YrzhrbZugtAadvIIdL4jCpAAAAAElFTkSuQmCC") center no-repeat;
+}
+
+
+.social__item--active .social__link{
+  background: #e1942a;
+}
+
+.social__item:hover .social__link{
+  background: #e1942a;
+}
