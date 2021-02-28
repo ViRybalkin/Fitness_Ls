@@ -1,5 +1,5 @@
 .welcome-page{
-  background: url(../../img/Фон.png) center center no-repeat;
+  background: url(/img/Фон.png) center center no-repeat;
   height: 100%;
   position: relative;
   display: flex;
